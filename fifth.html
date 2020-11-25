@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Challenge 5</title>
+    <link rel="stylesheet" href="fifth.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container" style="padding-left: 0px; padding-right: 0px;">
+        <h2>Challenge 5 : BlackJack</h2>
+        <h3><span id="result-message">Let's play</span></h3>
+        <div class="back">
+            <div class="blackjack-row1">
+                <div class="you">
+                    <h2>You: <span id="you-result">0</span></h2>
+                    <div class='addcard-you'></div>
+                </div>
+                <div class="dealer">
+                    <h2>Dealer: <span id="dealer-result">0</span></h2>
+                    <div class='addcard-dealer'></div>
+                </div>
+            </div>
+            <div class="blackjack-row2">
+                <div>
+                    <button class="btn-lg btn-primary mr-2" id="hit">Hit</button>
+                    <button class="btn-lg btn-warning mr-2" id="stand">Stand</button>
+                    <button class="btn-lg btn-danger mr-2" id="deal">Deal</button>
+                </div>
+            </div>
+        </div>
+        <div class="blackjack-row3">
+            <table>
+                <tr>
+                    <th><strong>Wins</strong></th>
+                    <th><strong>Loses</strong></th>
+                    <th><strong>Draws</strong></th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="loses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="fifth.js"></script>
+</body>
+
+</html>
